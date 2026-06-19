@@ -1,1 +1,14 @@
-# linux-sysadmin-roadmap
+# 🐧 Linux SysAdmin & DevOps Roadmap
+
+Repositorio dedicado a documentar mi progreso, laboratorios prácticos y resolución de problemas en entornos Linux, enfocado en adquirir habilidades de nivel producción.
+
+## 📁 Estructura del Proyecto
+*   **Módulo 1: Fundamentos y Navegación** (Semanas 1-3)
+*   **Módulo 2: Administración y Permisos** (Próximamente)
+
+---
+
+## 🛠️ Módulo 1: Semana 1 - Acceso y Arquitectura
+### Laboratorio Realizado: Configuración de Entorno WSL2
+*   **Objetivo:** Levantar un entorno Linux Ubuntu nativo sobre Windows 10 y asegurar la conexión vía llaves SSH con GitHub.
+*   **Comandos clave aprendidos:** `uname`, `hostname`, `man`, `cat`.
