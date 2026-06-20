@@ -12,3 +12,4 @@ Repositorio dedicado a documentar mi progreso, laboratorios prácticos y resoluc
 ### Laboratorio Realizado: Configuración de Entorno WSL2
 *   **Objetivo:** Levantar un entorno Linux Ubuntu nativo sobre Windows 10 y asegurar la conexión vía llaves SSH con GitHub.
 *   **Comandos clave aprendidos:** `uname`, `hostname`, `man`, `cat`.
+- [x] Tarea Semana 1: Entorno WSL2 y Banner .bashrc configurados.
