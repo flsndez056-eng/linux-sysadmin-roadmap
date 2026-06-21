@@ -14,8 +14,15 @@ Repositorio dedicado a documentar mi progreso, laboratorios prácticos y resoluc
 *   **Comandos clave aprendidos:** `uname`, `hostname`, `man`, `cat`.
 - [x] Tarea Semana 1: Entorno WSL2 y Banner .bashrc configurados.
 
-## Modulo : Semana 2 - Navegacion Estructurada 
+## Modulo 1: Semana 2 - Navegacion Estructurada 
 ### Laboratorio Realizado: Inspeccionde Reconoicimiento a Ciegas
 *   **Objetivo:** Navegar por la Terminal.
 *   **Comandos clave aprendidos:** `ls` `cd` `pwd`. 
 - [x] Tarea Semana 2: Investigacion de FHS y Navegacion Completada.
+
+## Modulo 1: Semana 3 - Manipulacion de Entornos.
+### Laboratorio Realizado: Creacion de carpetas anidadas.
+*   **Objetivos:** Aprender a crear estructura completa de directorios.
+*   **Comandos clave apredndidos:** `mkdir` `touch` `cp` `mv` `rm`
+- [X] Tarea Semana 3: Preparar almacenamiento temporal para una app web completada.
+
