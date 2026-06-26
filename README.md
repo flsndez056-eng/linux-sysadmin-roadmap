@@ -34,7 +34,6 @@ Repositorio dedicado a documentar mi progreso, laboratorios prácticos y resoluc
 
 ### Pasos Ejecutados y Solución Técnica:
 1. **Creación de Entorno Protegido:** Se generó la estructura jerárquica ani     dada solicitada en un único comando optimizado:
-   
      mkdir -p ~/auditoria_produccion/backups/nginx/configs/
 
 2. **Extracción y Aislamiento de Datos:** Navegando al directorio raíz de co     nfiguraciones, se copió el archivo de red local sin afectar el entorno      operativo: 
@@ -71,28 +70,36 @@ Repositorio dedicado a documentar mi progreso, laboratorios prácticos y resoluc
 
 2. **Auditoría de Identidad Basada en IDs:** Se validó que el sistema recono     zca al usuario con múltiples pertenencias de grupo concurrentes:
 
-     id dev_pedro
-     Output de verificación del sistema:
-     uid=1001(dev_pedro) gid=1001(devteam) groups=1001(devteam),1002(analyti     cs)
+     id dev_pedro Output de verificación del sistema: 
+     uid=1001(dev_pedro) gid=1001(devteam) 
+     groups=1001(devteam),1002(analyti cs)
 
-3. **Verificación en Archivo de Configuración de Grupos:** Se auditó directa     mente la persistencia en la base de datos de identidades del sistema op     erativo empleando herramientas de filtrado de texto:
+3. **Verificación en Archivo de Configuración de Grupos:** Se auditó 
+directa mente la persistencia en la base de datos de identidades del 
+sistema op erativo empleando herramientas de filtrado de texto:
 
-     tail -n 5 /etc/group | grep analytics
-     Output de verificación del sistema:
-     analytics:x:1002:dev_pedro
+     tail -n 5 /etc/group | grep analytics Output de verificación 
+     del sistema: analytics:x:1002:dev_pedro
 
+---
 
+## 🔒 Semana 5 - El Modelo de Permisos Tradicional
 
+**Objetivo:** Resolver problemas de denegación de acceso 
+(*Permission Denied*) en scripts de automatización mediante el 
+cálculo octal preciso, aplicando el principio de menor privilegio.
 
+### 🛠️ Pasos Ejecutados y Solución Técnica:
+1. **Simulación del Escenario:** Se creó el entorno de pruebas para el script de despliegue: 
+    touch ~/deploy.sh
 
+## 🔒 Semana 6  - Privilegios Administrativos y Edicion Segura
 
+**Objetivo:** Auditar politicas de escalacion de privilegios (archivo sudoers)
+.
 
-
-
-
-
-
-
-
+### 🛠️ Pasos Ejecutados y Solución Técnica:
+1.  **Acceso con red de seguridad** Se evito la edicion directa con editores comunes para prevenir bloqueos del sistema.
+2.  **Auditoria de regla de oro** Se localizo la directiva de control absoluto del sistema: root ALL=(ALL:ALL) ALL
 
 
